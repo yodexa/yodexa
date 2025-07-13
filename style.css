@@ -79,6 +79,7 @@ a {
 }
 
 .btn-primary {
+    margin-top: 2rem; /* Adds space above the button */
     background-color: var(--primary-color);
     color: #fff;
 }
@@ -215,12 +216,15 @@ input:checked + .slider:before {
 /* --- Hero Section --- */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero-background.jpg') no-repeat center center/cover;
-    min-height: 500px; /* Sets a minimum height */
+    height: 100vh; /* Set height to 100% of the viewport height */
+    background-attachment: fixed; /* Fix the background image during scroll */
     display: flex;
+    flex-direction: column; /* Align content vertically */
+    justify-content: center; /* Center content vertically */
     align-items: center;
     text-align: center;
     color: #fff;
-    padding: 5rem 0; /* Adds vertical padding */
+    padding: 0 1.5rem; /* Adjust padding */
 }
 
 .hero h2 {

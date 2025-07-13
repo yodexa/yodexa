@@ -149,7 +149,7 @@ nav.container {
 }
 
 .nav-menu a {
-    color: #fff;
+    color: var(--text-color); /* Changed from #fff */
     font-weight: 600;
     transition: color var(--transition-speed);
 }

@@ -79,9 +79,8 @@ a {
 }
 
 .btn-primary {
-    margin-top: 2rem; /* Adds space above the button */
     background-color: var(--primary-color);
-    color: #fff;
+    color: #ffffff;
 }
 
 .btn-primary:hover {
